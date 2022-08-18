@@ -1,0 +1,45 @@
+.footer {
+    padding: 4rem 0;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+    gap: 1.5rem;
+}
+
+.footer .container .box h3 {
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--darkBlue);
+    text-transform: capitalize;
+}
+
+.footer .container .box a {
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--lightBlue);
+    text-transform: capitalize;
+}
+
+.footer .container .box a:hover {
+    color: var(--redColor);
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    text-align: center;
+    border-top: .1rem solid rgba(0 0 0 /.1);
+    font-size: 1.5rem;
+    padding: 1.5rem .5rem;
+    margin-top: 1.5rem;
+    color: var(--lightBlue);
+}
+
+.footer .copyright span {
+    color: var(--redColor);
+    text-transform: capitalize;
+}
+
+/* End Footer Section  */
